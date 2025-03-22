@@ -1,12 +1,21 @@
-# React + Vite
+# Gif Expert App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Vista previa](src/assets/gifExpert-screen.png)
 
-Currently, two official plugins are available:
+## Descripción
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Gif Expert App es una aplicación web que permite buscar GIFs utilizando la API de Giphy ([Giphy Developers](https://developers.giphy.com/)). Este proyecto fue desarrollado con el propósito de practicar React y el consumo de APIs externas.
 
-## Expanding the ESLint configuration
+## Características
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Búsqueda dinámica de GIFs.
+- Integración con la API de Giphy.
+- Listado de resultados con imágenes animadas.
+- Diseño sencillo y responsivo.
+
+## Tecnologías utilizadas
+
+- React
+- Vite
+- Fetch API
+- CSS
