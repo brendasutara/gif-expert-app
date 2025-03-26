@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { AddCategory, GifGrid } from "./components";
-import { RiveDemo } from "./components/RiverApp";
+import { AddCategory, GifGrid, RiverApp } from "./components";
+import Bolita from "./components/Bolita";
 
 export default function GifExpertApp() {
   const [categories, setCategories] = useState(["Valorant"]);
@@ -11,15 +11,25 @@ export default function GifExpertApp() {
   };
   return (
     <>
-      <h1>Gif Expert App</h1>
+      <main>
+        <h1>Gif Expert App</h1>
 
-      <RiveDemo />
+        <AddCategory onNewCategory={onAddCategory} />
 
-      <AddCategory onNewCategory={onAddCategory} />
-
-      {categories.map((category) => (
-        <GifGrid key={category} category={category} />
-      ))}
+        {categories.map((category) => (
+          <GifGrid key={category} category={category} />
+        ))}
+      </main>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <RiverApp />
+        <Bolita />
+      </div>
     </>
   );
 }

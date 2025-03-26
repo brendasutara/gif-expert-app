@@ -5,7 +5,7 @@
   color: white;
 }
 
-body {
+main {
   padding: 80px;
 }
 
@@ -80,7 +80,7 @@ h3 {
 }
 
 @media (max-width: 1024px) {
-  body {
+  main {
     padding: 20px;
   }
 }
